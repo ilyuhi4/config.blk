@@ -1,0 +1,134 @@
+clientBitType:t="64bit"
+doShowDriversOutdated:b=yes
+renderer3:t="vulkan"
+rdseed:i=903999734
+graphicsQuality:t="custom"
+language:t="Russian"
+use_eac:b=no
+forcedLauncher:i=0
+use_release_candidate:b=no
+releaseChannel:t=""
+
+oculus{
+  edgeScale:r=0.95
+  magnetometerEnabled:b=no
+  maxSeparation:r=0.0005
+  predictionEnabled:b=no
+  k2:r=0.666
+  k1:r=0.5
+  zeroParallaxDist:r=3
+  fovMul:r=1.2
+}
+
+launcher{
+  startup_with_windows:b=yes
+  hide_to_tray_option:b=yes
+  bg_update:b=yes
+  bg_tray:b=yes
+}
+
+graphics{
+  enableSuspensionAnimation:b=no
+  landquality:i=0
+  backgroundScale:r=1
+  cloudsQuality:i=1
+  contactShadowsQuality:i=0
+  tireTracksQuality:i=0
+  texquality:t="low"
+  fxDensityMul:r=0.3
+  grassRadiusMul:r=0.1
+  rendinstDistMul:r=0.5
+  advancedShore:b=no
+  lenseFlares:b=no
+  anisotropy:i=1
+  dirtSubDiv:i=1
+  displacementQuality:i=0
+  panoramaResolution:i=1024
+  ssaa:r=1
+  shadowQuality:t="ultralow"
+  lastClipSize:i=4096
+  waterQuality:t="low"
+  skyQuality:i=0
+  clipmapScale:r=0.5
+  mirrorQuality:i=0
+  fxTarget:t="medium"
+  physicsQuality:i=1
+  giQuality:t="low"
+  riGpuObjects:b=no
+  compatibilityShadowQuality:t="ultralow"
+}
+
+download{
+  peer_exchange:b=yes
+  DHT:b=yes
+  dnl_speed_rate:i=1000
+  upl_speed_rate:i=1000
+  seeding_on:b=yes
+  upl_limit:b=no
+  dnl_limit:b=no
+  UTP2:b=no
+}
+
+directx{
+  enableHdr:b=no
+  maxaa:i=0
+}
+
+yunetwork{
+  webStatusLocalhostOnly:b=yes
+  curCircuit:t="production"
+  enableWebStatus:b=no
+  webStatusPort:i=55444
+}
+
+render{
+  selfReflection:b=no
+  fxReflection:b=no
+  grass:b=no
+  motionBlur:b=no
+  waterReflection:b=no
+  ssrQuality:i=0
+  rendinstGlobalShadows:b=no
+  softFx:b=no
+  staticShadowsOnEffects:b=no
+  ssaoQuality:i=0
+  haze:b=no
+  shadows:b=no
+}
+
+video{
+  instancing:t="auto"
+  resolution:t="1920 x 1080"
+  vsync:b=no
+  adaptive_vsync:b=no
+  compatibilityMode:b=yes
+  postfx_antialiasing:t="none"
+  windowed:b=no
+  mode:t="fullscreen"
+  alpha_to_coverage:b=no
+  driver:t="vulkan"
+  fonts:t="compact"
+  perfMetrics:i=1
+  latencyFlash:b=no
+  dlssSharpness:i=0
+  dlssQuality:i=-1
+  temporalResolutionScale:r=1
+  latency:i=0
+  vrStreamerMode:b=no
+  vreye:t="left"
+}
+
+debug{
+  enableNvHighlights:t="auto"
+  screenshotAsJpeg:b=yes
+  512mboughttobeenoughforanybody:b=no
+}
+
+sound{
+  speakerMode:t="stereo"
+  fmod_sound_enable:b=yes
+}
+
+gameplay{
+  enableVR:b=no
+}
